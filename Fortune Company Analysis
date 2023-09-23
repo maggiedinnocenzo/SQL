@@ -96,7 +96,7 @@ CASE WHEN maternity_leave_weeks>=8 THEN "8 or more weeks of Maternity Leave"
 ELSE "Does not fit my requirements"
 END AS "Job Search"
 FROM fortune_companies
-WHERE company_name!='Walmart Inc.'
+WHERE company_name!='Apple Inc.'
 AND company_name!='Company B'
 ORDER BY "Total Maternity Leave Weeks" desc;
 
